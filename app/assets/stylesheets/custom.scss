@@ -1,2 +1,81 @@
 @import "bootstrap";
 
+// Buttons & Forms
+
+button, .btn, input {
+  border-radius: 0 !important;
+}
+
+
+// NavBar
+
+
+#logo {
+  float: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover, .nav-link:hover  {
+  color: #d7dde5 !important;
+  text-decoration: none !important;
+}
+
+
+.nav-link {
+  color: #fff !important;
+}
+
+
+// Header
+
+.header {
+  // background-image: asset-url('koreauniv_main.jpg');
+  // background-size: none;
+  // background-position: center center;
+  background-color: #a51515;
+  height: 100vh;
+  text-align: center !important;
+}
+
+.searchbar {
+  text-align: center !important;
+  margin: 0 auto;
+}
+
+.search {
+  width: 50vw !important;
+}
+
+
+// Rulecard
+
+.rulecard {
+  background-color: #a51515;
+  height: 70vh;
+  
+  .card {
+    border-radius: 0 !important;
+    height: 18rem;
+    
+    .card-text {
+      height: 10rem;
+    }
+    
+    a {
+      text-align: center !important;
+    }
+  }
+  
+}
+
+
+// Footer
+
+footer {
+  height: 15vh;
+}
