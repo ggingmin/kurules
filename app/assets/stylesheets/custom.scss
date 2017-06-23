@@ -1,4 +1,5 @@
 @import "bootstrap";
+// @import "font-awesome"
 
 // Buttons & Forms
 
@@ -9,6 +10,9 @@ button, .btn, input {
 
 // NavBar
 
+nav {
+  background-color: #a51515;
+}
 
 #logo {
   float: left;
@@ -56,7 +60,7 @@ button, .btn, input {
 
 .rulecard {
   background-color: #a51515;
-  height: 70vh;
+  height: 75vh;
   
   .card {
     border-radius: 0 !important;
@@ -77,5 +81,12 @@ button, .btn, input {
 // Footer
 
 footer {
-  height: 15vh;
+  margin: 0 auto;
+  height: 10vh;
+  text-align: center;
+  background-color: #27282b;
+  
+  .footer-content {
+    margin: 0 auto;
+  }
 }
